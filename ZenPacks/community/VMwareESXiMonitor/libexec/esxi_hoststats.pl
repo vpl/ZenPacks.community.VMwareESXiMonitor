@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-
+$ENV{PERL_LWP_SSL_VERIFY_HOSTNAME} = 0;
 use strict;
 use warnings;
 use VMware::VIRuntime;
