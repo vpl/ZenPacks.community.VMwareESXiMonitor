@@ -8,7 +8,7 @@
 # You can find full information here: http://www.zenoss.com/oss
 #
 ################################################################################
-
+$ENV{PERL_LWP_SSL_VERIFY_HOSTNAME} = 0;
 use strict;
 use warnings;
 use VMware::VIRuntime;
